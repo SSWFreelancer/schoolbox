@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Курс</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">   
+   <link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="header__container">
+			<a href="#" class="header__logo">
+				<img src="img/header/logo.png" alt="">
+			</a>
+			<div class="header__burger"><span></span></div>
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#" class="menu__link">О проекте</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Курсы</a>
+						<ul class="menu__sublist">
+							<li><a href="#">Курс - 2</a></li>
+							<li><a href="#">Курс - 3</a></li>
+						</ul>
+					</li>
+					<li class="menu__item"><a href="#speakers" class="menu__link">Спикеры</a></li>
+					<li class="menu__item"><a href="#footer" class="menu__link">что вы получите</a></li>
+					<li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main__background">
+			<img src="img/main/bg.png" alt="">
+		</div>
+		<div class="main__container">
+			<div class="main__content">
+				<h1 class="main__title">
+					SchoolBox <br>экспресс обучение в рамках поставленных задач
+				</h1>
+				<div class="main__subtitle">
+					Миссия школы SchoolBox - формирование нового поколения творческих личностей в мире телевидения и медиа пространства.
+				</div>
+				<div class="main__text">
+					Общая продолжительность курса:
+					<div class="main__item">
+						4 недели погружения в волшебный мир цифровых медиа
+					</div>
+					<div class="main__item">
+						36 часов практика и только практика
+					</div>					
+				</div>				
+			</div>
+			<form action="#" class="main__form" onsubmit="send(event, 'send.php')">
+				<img src="img/main/dec1.png" alt="" class="main__dec1">
+				<img src="img/main/dec2.png" alt="" class="main__dec2">
+				<img src="img/main/dec3.png" alt="" class="main__dec3">
+				<input type="text" name="name" placeholder="Ваше Имя" onfocus="this.placeholder = ''"
+               onblur="this.placeholder = 'Ваше Имя'">
+				<input type="text" name="phonenumber" placeholder="Ваш телефон" onfocus="this.placeholder = ''"
+               onblur="this.placeholder = 'Ваш телефон'">
+				<button class="main__button">
+					Заказать звонок
+				</button>
+			</form>				
+		</div>
+	</main>
+	<div class="benefits">
+		<div class="benefits__container">
+			<div class="benefits__cards">
+				<div class="benefits__card">
+					<img src="img/benefits/1.png" alt="">
+					<div class="benefits__title">
+						КУРС «ТЕЛЕЗВЕЗДА» 
+					</div>
+					<div class="benefits__text">
+						<span>Главная задача курса «Телезвезда»-</span>
+						На курсах «Телезвезда» -вы сможете создать свой личный путь телеведущего или создателя авторского блога. Станете автором своего развития в меди пространстве.<br>
+						<br>Научитесь писать сценарий к своему контенту, запишите авторский блог, интегрированный в шоу программу на популярном телеканале.
+					</div>					
+				</div>
+				<div class="benefits__card">
+					<img src="img/benefits/2.png" alt="">
+					<div class="benefits__title">
+						Создатели авторских блогов
+					</div>
+					<div class="benefits__text">
+						Профессиональные спикеры раскроют вам секреты профессии телеведущего, психологии общения и от чего зависит успех вашего авторского блога.
+					</div>					
+				</div>
+				<div class="benefits__card">
+					<img src="img/benefits/3.png" alt="">
+					<div class="benefits__title">
+						Будущие телеведущие
+					</div>
+					<div class="benefits__text">
+						Навыки, полученные на курсах «Телезвезда», позволят в дальнейшем успешному продвижению личного бренда, вдохновению идей и монетизации в медиа пространстве.
+						 <br><br>
+						Экспресс обучение, гибкий график, опытные педагоги помогут получить актуальные знания и настоящую практику в медиа пространстве.
+					</div>					
+				</div>								
+			</div>
+		</div>
+	</div>
+	<div id="speakers" class="speakers">
+		<div class="speakers__container">
+			<img src="img/speakers/bg.png" alt="" class="speakers__background">
+			<div class="speakers__body">
+				<div class="speakers__title">
+					Спикеры курса 
+				</div>
+				<div class="speakers__cards">
+					<div class="speakers__card">
+						<div class="speakers__image">
+							<img src="img/speakers/1.png" alt="">
+						</div>
+						<div class="speakers__info">
+							<div class="speakers__name">
+								Рокси 
+							</div>
+							<div class="speakers__text">
+								Личный бренд
+							</div>
+						</div>
+					</div>
+					<div class="speakers__card">
+						<div class="speakers__image">
+							<img src="img/speakers/2.png" alt="">
+						</div>
+						<div class="speakers__info">
+							<div class="speakers__name">
+								Сценарное мастерство Андрей Терехов
+							</div>
+							<div class="speakers__text">
+								Режиссер, сценарист, креативный продюсер
+								<br>Более 15 лет на ТВ
+								<br>Муз ТВ, НТВ, Россия-1,ТВ-3-ТВЦ, Мир, 5 канал, СТС
+							</div>
+						</div>
+					</div>
+					<div class="speakers__card">
+						<div class="speakers__image">
+							<img src="img/speakers/3.png" alt="">
+						</div>
+						<div class="speakers__info">
+							<div class="speakers__name">
+								Лиана Манвелял
+							</div>
+							<div class="speakers__text">
+								Психолог, лингвист, сертифицированный специалист нейрографики
+								<br>Автор проекта Озознанных игр 
+							</div>
+						</div>
+					</div>
+					<div class="speakers__card">
+						<div class="speakers__image">
+							<img src="img/speakers/4.png" alt="">
+						</div>
+						<div class="speakers__info">
+							<div class="speakers__name">
+								Эфирная речь Новикова Екатерина
+							</div>
+							<div class="speakers__text">
+								Педагог по сценической речи, импровизации в кадре 
+								<br>Выпускница ВГИКа, школы драмы Г. Сидакова, Академии Никиты Михалкова-курс техника речи 
+							</div>
+						</div>
+					</div>
+					<div class="speakers__card">
+						<div class="speakers__image">
+							<img src="img/speakers/5.png" alt="">
+						</div>
+						<div class="speakers__info">
+							<div class="speakers__name">
+								Александра Пушкина 
+							</div>
+							<div class="speakers__text">
+							</div>
+						</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="fit">
+		<div class="fit__container">
+			<div class="fit__title title">
+				<span>Для </span>кого наш <span>курс</span>?
+			</div>
+			<div class="fit__body">
+				<div class="fit__column fit__column1">
+					<div class="fit__card">
+						<div class="fit__subtitle">
+							Кто они?
+						</div>
+						<div class="fit__text">
+							<span>Новички</span> и люди с опытом непрофессиональной работы в кадре, занятые сферах далеких от телевидения и интернета. <br> Если вы готовы начать карьеру в публичном пространстве, курс «Телезвезда» поможет вам грамотно начать вашу карьеру и готов вручить каждому индивидуальную  дорожную карту движения к вашей цели!
+						</div>
+					</div>
+				</div>
+				<div class="fit__image">
+					<img src="img/fit/girl.png" alt="">
+				</div>
+				<div class="fit__column">
+					<span></span>
+					<div data-da=".fit__column1, 1254, last" class="fit__card">
+						<div class="fit__subtitle">
+							Блогеры и телеведущие
+						</div>
+						<div class="fit__text">
+							Вы уже снимаете видео, знаете азы монтажа  и продвижения в сети, но  и хотите масштабироваться, повысить уровень, качество и доход от своего личного бренда . Наша школа поможет вам в этом. Знания легко монетизируются, если учат профессионалы.
+						</div>
+					</div>
+					<div data-da=".fit__column1, 1254, last" class="fit__card">
+						<p></p>
+						<div class="fit__subtitle">
+							для тех, кто постоянно учится
+						</div>
+						<div class="fit__text">
+							Для вас собственное развитие превратилось в двигатель жизни. Бизнес требует? Есть амбиции стать более узнаваемым. Это обычные требования наших студентов. SchoolBox – не копилка желаний, а профессиональная реализация мечты. 
+						</div>
+					</div>										
+				</div>
+			</div>
+		</div>
+		<div class="fit__footer">
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+			<span>SCHOOLBOX</span>
+		</div>		
+	</section>
+	<section class="modules">
+		<div class="modules__container">
+			<div class="modules__title title">
+				Модули курса
+			</div>
+			<div class="modules__spoilers">
+            <div class="spoiler">
+               <div class="spoiler__title">
+                  Психология общения. Спринт Дизайн
+               </div>
+               <div class="spoiler__body">
+	               <div class="spoiler__content">
+	               	<div class="spoiler__column">     	
+		               	<div class="spoiler__description">
+		               		Описание
+		               	</div>
+		               	<div class="spoiler__text">
+		               		Любое движение начинается с цели. А правильно поставленная  цель (не родителей, бабушек ,подругой, красивыми картинками из со сетей и т.д -это залог успеха. 
+									<br>
+									Ваши сильные стороны в творчестве ,таланты, страхи -станут вашими союзниками на пути к успеху  .Профессиональные ,практикующие психологи на простом зыке расскажут как их правильно раскрывать  и использовать во благо своему развитию и обществу. Станьте автором своей жизни. Напишите свой  успешный сценарий жизни воплотите его в жизнь.
+		               	</div>
+	               	</div>
+		               <div class="spoiler__image">
+		               	<img src="img/spoiler/1.png" alt="">
+		               </div>  
+	               </div>             	
+               </div>
+            </div>
+            <div class="spoiler">
+               <div class="spoiler__title">
+                 Эфирная речь
+               </div>
+               <div class="spoiler__body">
+	               <div class="spoiler__content">
+	               	<div class="spoiler__column">     	
+		               	<div class="spoiler__description">
+		               		Описание
+		               	</div>
+		               	<div class="spoiler__text">
+		               		Наша речь – это наша визитная карточка. Красивый, хорошо поставленный голос, нужен всем, кто работает с людьми! Даже в повседневном общении иметь приятный благозвучный голос — «плюс» в копилку возможностей.
+		               		<br>На занятиях «Эфирной речи» вы получите практические упражнения для постановки грамотной ,четкой речи без дефектов.
+		               	</div>
+	               	</div>
+		               <div class="spoiler__image">
+		               	<img src="img/spoiler/2.png" alt="">
+		               </div>  
+	               </div>             	
+               </div>
+            </div>
+            <div class="spoiler">
+               <div class="spoiler__title">
+                  Импровизация
+               </div>
+               <div class="spoiler__body">
+	               <div class="spoiler__content">
+	               	<div class="spoiler__column">     	
+		               	<div class="spoiler__description">
+		               		Описание
+		               	</div>
+		               	<div class="spoiler__text">
+		               		Наша повседневная жизнь целиком и полностью завязана на общении с окружающими людьми: друзьями и близкими, коллегами по работе, возлюбленными, подписчиками.
+									<br>Импровизация – это не только быстрая реакция, но организованная система приемов воплощения. Она имеет свои закономерности и свои средства создания.
+									<br>Профессиональные  техники снятия зажимов, раскрепощения и раскрытия внутренней природы человека откроют для вас возможность общения на новом, более открытом уровне.
+									<br>От умения импровизировать в кадре во многом зависит успех телеведущего, блогера.
+		               	</div>
+	               	</div>
+		               <div class="spoiler__image">
+		               	<img src="img/spoiler/3.png" alt="">
+		               </div>  
+	               </div>             	
+               </div>
+            </div>  
+            <div class="spoiler">
+               <div class="spoiler__title">
+                  Имидж в медиа
+               </div>
+               <div class="spoiler__body">
+	               <div class="spoiler__content">
+	               	<div class="spoiler__column">     	
+		               	<div class="spoiler__description">
+		               		Описание
+		               	</div>
+		               	<div class="spoiler__text">
+		               		<span>Self-made продукт: </span><br>
+		               		создание бренда ,стратегия позиционирования.<br><br>
+		               		<span>Self-made продакшен</span><br>
+									Воплощение вашей идеи в реальную программу невозможно без умения работать с микрофоном, камерой, суфлером и светом. В нашей школе вы освоите это на практике.  Опытные наставники пройдут все этапы подготовки к съёмкам  вместе с вами. 
+		               	</div>
+	               	</div>
+		               <div class="spoiler__image">
+		               	<img src="img/spoiler/4.png" alt="">
+		               </div>  
+	               </div>             	
+               </div>
+            </div>
+            <div class="spoiler">
+               <div class="spoiler__title">
+                  Сценарное мастерство
+               </div>
+               <div class="spoiler__body">
+	               <div class="spoiler__content">
+	               	<div class="spoiler__column">     	
+		               	<div class="spoiler__description">
+		               		Описание
+		               	</div>
+		               	<div class="spoiler__text">
+									Умение правильно говорить, хорошо выглядеть в кадре и использовать технические средства – это важная форма подачи материала. А содержание – это текст. Его должны услышать, а не увидеть. Основы выстраивания логики в видео-контенте,
+									cекреты успешного сценария, лайфхаки по поиску идей для авторского контента, разбор и предложения по созданию дэмо-ролика, интегрированного в шоу-программу на популярном телеканале. <br>
+									Этому учат на занятиях по сценарному мастерству. <br>
+									Совокупность полученных знаний позволит вам записать самопрезентацию -
+									короткий и цепляющий рассказ о себе, который вы успешно будете использовать для продвижения личного бренда. Второго шанса произвести первое впечатление -может не быть.
+		               	</div>
+	               	</div>
+		               <div class="spoiler__image">
+		               	<img src="img/spoiler/5.jpg" alt="">
+		               </div>  
+	               </div>             	
+               </div>
+            </div>                                                     
+			</div>			
+		</div>
+	</section>
+	<section class="format">
+		<div class="format__container">
+			<div class="format__title title">
+				Формат обучения
+			</div>
+			<div class="format__row">
+				<div class="format__text">
+					Теоретические занятия проходят в формате OFFLINE.
+				</div>
+				<div class="format__image">
+					<img src="img/format/1.png" alt="">
+				</div>
+			</div>
+			<div class="format__row">
+				<div class="format__image">
+					<img src="img/format/2.png" alt="">
+				</div>				
+				<div class="format__text">
+					Практические занятия проходят в профессиональной студии популярного телеканала.
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="partners">
+		<div class="partners__container">
+			<div class="partners__title title">
+				Партнеры
+			</div>
+			<div class="partners__images">
+				<a href="#"><img src="img/partners/1.png" alt=""></a>
+				<a href="#"><img src="img/partners/1.png" alt=""></a>
+				<a href="#"><img src="img/partners/1.png" alt=""></a>
+				<a href="#"><img src="img/partners/1.png" alt=""></a>
+			</div>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="footer__container">
+			<div class="footer__title title">
+				В итоге обучение вы получите:
+			</div>
+<!-- 			<div class="footer__subtitle">
+				Что получаем?
+			</div> -->
+			<div class="footer__content">	
+				<div class="footer__list">
+					<div class="footer__item">
+						<div class="footer__check"><img src="img/check.png" alt=""></div>практические этапы от создания идеи авторского проекта до ее воплощения
+					</div>
+					<div class="footer__item">
+						<div class="footer__check"><img src="img/check.png" alt=""></div>интеграция вашей идеи в шоу программу на популярном телеканале 
+					</div>
+					<div class="footer__item">
+						<div class="footer__check"><img src="img/check.png" alt=""></div>рекомендации по предвижению личного бренда в медиа пространстве
+					</div>	
+					<div class="footer__item">
+						<div class="footer__check"><img src="img/check.png" alt=""></div>ваш авторский проект станет профессиональным портфолио телеведущего
+					</div>	
+				</div>
+				<div class="footer__list">
+					<div class="footer__item">
+						<div class="footer__check"><img src="img/check.png" alt=""></div>индивидуальную, дорожную карту движения к вашей цели
+					</div>
+					<div class="footer__item">
+						<div class="footer__check"><img src="img/check.png" alt=""></div>неповторимый имидж современной телезвезды, блогера
+					</div>
+					<div class="footer__item">
+						<div class="footer__check"><img src="img/check.png" alt=""></div>получите профессиональные рекомендации по технике речи и импровизации в кадре
+					</div>	
+					<div class="footer__item">
+						<div class="footer__check"><img src="img/check.png" alt=""></div>сертификат о прохождении курса «Телезвезда»
+					</div>														
+				</div>				
+			</div>
+		</div>
+	</footer>	
+	<section id="contacts"class="contacts">
+		<div class="contacts__container">
+			<div class="contacts__title title">
+				Контакты
+			</div>
+			<form action="#" class="main__form" onsubmit="send(event, 'send1.php')">
+				<input type="text" name="name1" placeholder="Ваше Имя" onfocus="this.placeholder = ''"
+               onblur="this.placeholder = 'Ваше Имя'">
+				<input type="text" name="phonenumber1" placeholder="Ваш телефон" onfocus="this.placeholder = ''"
+               onblur="this.placeholder = 'Ваш телефон'">
+				<button class="main__button">
+					Заказать звонок
+				</button>
+			</form>			
+<!--          <div id="map" class="contacts__map">
+
+         </div>	 -->
+         <div class="contacts__footer">
+         	<div class="contacts__social">
+         		<a href="#"><img src="img/contacts/telegram.svg" alt=""></a>
+         		<a href="#"><img src="img/contacts/whatsapp.svg" alt=""></a>
+         		<!-- <a href="#"><img src="img/contacts/youtube.png" alt=""></a> -->
+        			<a href="#"><img src="img/contacts/vk.svg" alt=""></a>
+         		<a href="tel:89560000000"><img src="img/contacts/telephone.svg" alt=""></a>
+         		<!-- <a href="#"><img src="img/contacts/rutube.png" alt=""></a> -->
+         	</div>
+         	<div class="contacts__address">
+         		г. Москва
+         	</div>
+         </div>		
+		</div>
+	</section>
+</div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/dynamicAdapt.js"></script>
+</html>
