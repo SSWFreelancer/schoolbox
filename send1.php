@@ -38,7 +38,7 @@ try {
     $mail->addAddress('schoolbox@internet.ru');
     $mail->addAddress('igumaj@bk.ru');
     $mail->addAddress('okunev-2@yandex.ru');  
-    $mail->addAddress('sswfreelance22@gmail.com'); //Ещё один, если нужен
+    //$mail->addAddress('sswfreelance22@gmail.com'); //Ещё один, если нужен
 
     // Прикрипление файлов к письму
 if (!empty($file['name'][0])) {

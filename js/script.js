@@ -1,5 +1,27 @@
-$(document).ready(function () {
+  var countDownFunction = setInterval(function(){
+  var countDownDate = new Date("5 6, 2022 1:03:00").getTime();
+   var now = new Date().getTime();
+   var distance = countDownDate - now;
+   var hours =  Math.floor((distance % (1000 * 3600 * 24))/(1000 * 3600 ));
+   var minutes  = Math.floor((distance%(1000*60*60))/(1000*60));
+   var seconds = Math.floor((distance%(1000*60))/1000);
+   if (hours < 10){
+      hours = "0" + hours;
+   }
+   if (minutes < 10){
+      minutes = "0" + minutes;
+   } 
+   if (seconds < 10){
+      seconds = "0" + seconds;
+   }        
+   $('.cost__countdown').html(hours + ":" + minutes + ":" + seconds);
+   if(distance == 0){
+     countDownDate.setHours(countDownDate.getHours() + 24);
+   }                                       
+  }, 1000);
 
+
+$(document).ready(function () {
    $('.header__burger').click(function (event) {
       $('.header__burger, .menu').toggleClass('active');
        $('html, body').toggleClass('lock');
@@ -39,7 +61,6 @@ $(document).ready(function () {
 //    scriptLoader(["https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4f5c91a8eb0dbc72b0ba72dbc0fbf858152de70cb3c810200791a346b3c47617&amp;width=100%25&amp;lang=ru_RU&amp;scroll=true"], function(){
 
 
-
 function send(event, php){
 console.log("Отправка запроса");
 event.preventDefault ? event.preventDefault() : event.returnValue = false;
@@ -67,3 +88,7 @@ req.onerror = function() {alert("Ошибка отправки запроса");
 };
 req.send(new FormData(event.target));
 }
+
+
+
+
