@@ -1,5 +1,5 @@
   var countDownFunction = setInterval(function(){
-  var countDownDate = new Date("5 6, 2022 1:03:00").getTime();
+  var countDownDate = new Date("8 12, 2022 1:03:00").getTime();
    var now = new Date().getTime();
    var distance = countDownDate - now;
    var hours =  Math.floor((distance % (1000 * 3600 * 24))/(1000 * 3600 ));
